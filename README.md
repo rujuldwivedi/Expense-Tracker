@@ -45,11 +45,11 @@ The **Expense Tracker** is a full-featured web application designed to help user
 
 2. **Configure the Database**:
 
-*Create a new database in MySQL*:
+   *Create a new database in MySQL*:
 ```
 CREATE DATABASE expense_tracker;
 ```
-*Update the application.properties file in the src/main/resources directory with your database credentials*:
+   *Update the application.properties file in the src/main/resources directory with your database credentials*:
 ```
 spring.datasource.url=jdbc:mysql://localhost:3306/expense_tracker
 spring.datasource.username=root
